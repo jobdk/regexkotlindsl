@@ -4,6 +4,8 @@
 The regexkotlindsl allows you to create complex regular expressions without the need for specific regex knowledge. This is especially useful for people who don't use regex on a daily basis.
 ### Example
  ```kotlin
+    import regexdsl.build
+
     val regex = build regex {
         starts with something
         followed with "@"
